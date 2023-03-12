@@ -1,0 +1,6 @@
+
+TODO LIST:
+1. Create new virtual malloc.
+2. Set up syscall wrapper creating script.
+
+I should use a tree data structure for allocating

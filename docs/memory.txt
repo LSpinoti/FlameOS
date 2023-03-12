@@ -1,0 +1,10 @@
+VIRTUAL MEMORY MAP:
+
+0x0000100000: userspace heap
+0x1000000000: userspace stack
+0x1000000000: kernel
+0x1800000000: kernel heap
+0x2000000000: kernel stack
+0x8000000000: device memory
+
+Heaps grow up, stacks grow down

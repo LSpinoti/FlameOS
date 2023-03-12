@@ -1,0 +1,16 @@
+Build Deps:
+	- make
+	- nasm
+	- x86_64-w64-mingw32-gcc
+
+Build Steps:
+	1. Run 'make'
+	2. ???
+	3. Profit
+
+Run Deps:
+	- qemu-system-x86_64
+	- ovmf
+
+Run Steps:
+	1. Run 'make run'

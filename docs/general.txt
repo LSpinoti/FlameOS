@@ -1,0 +1,22 @@
+The kernel is mapped to 0x1000000000
+(If you want to change this, you have to change the documentation,
+the linker script, and the const in the bootloader)
+
+The kernel and userspace heaps are mapped to 0x2000000000
+(To change this, change the docs ^ and malloc())
+
+
+The "core" is the central hub of the OS, and is usually referenced by the character "|".
+It contains all devices that the OS supports.
+
+Filesystem paths are structured like this:
+
+|Device/Directory/Subdirectory/file
+
+For example:
+
+|B/cfg/options.txt
+
+
+
+A volume letter is assigned to each partition that the system recognizes.
