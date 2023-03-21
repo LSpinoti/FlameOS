@@ -67,6 +67,7 @@ kernel/uefi.h
 libs/Makefile
 libs/include/gfx.h
 libs/include/macros.h
+libs/include/math.h
 libs/include/stdio.h
 libs/include/stdlib.h
 libs/include/string.h
