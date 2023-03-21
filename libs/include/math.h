@@ -12,6 +12,7 @@ static unsigned long __nan = (unsigned long) 0xFFFFFFFFFFFFFFFF;
 
 int abs(int x);
 double sqrt(double x);
+double cbrt(double x);
 double hypot(double x, double y);
 
 #endif
