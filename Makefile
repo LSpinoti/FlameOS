@@ -1,4 +1,5 @@
-QEMU_FLAGS := -bios /usr/share/ovmf/x64/OVMF.fd -kernel bootx64.efi -net none -m 2G -drive file=disk.img,format=raw
+QEMU_FLAGS := -bios /usr/share/ovmf/x64/OVMF.fd -kernel bootx64.efi -net none -m 2G
+#-drive file=disk.img,format=raw
 QEMU_DEBUG_FLAGS := $(QEMU_FLAGS) -S -s
 LIBS :=\
 libs/libgfx/libgfx.a

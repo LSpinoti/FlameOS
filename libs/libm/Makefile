@@ -5,7 +5,10 @@ CFLAGS := -ffreestanding -c -isystem ../include/ -isystem ../../kernel/include -
 OBJS :=\
 math/abs.o \
 math/cbrt.o \
+math/exp.o \
 math/hypot.o \
+math/log.o \
+math/pow.o \
 math/sqrt.o
 
 %.o: %.c
