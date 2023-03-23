@@ -5,11 +5,18 @@ CFLAGS := -ffreestanding -c -isystem ../include/ -isystem ../../kernel/include -
 OBJS :=\
 math/abs.o \
 math/cbrt.o \
+math/ceil.o \
+math/cos.o \
 math/exp.o \
+math/fabs.o \
+math/floor.o \
+math/fmod.o \
 math/hypot.o \
 math/log.o \
 math/pow.o \
-math/sqrt.o
+math/sin.o \
+math/sqrt.o \
+math/trunc.o
 
 %.o: %.c
 	$(CC) -o $@ $< $(CFLAGS)

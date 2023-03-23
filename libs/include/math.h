@@ -10,11 +10,21 @@ static unsigned long __nan = (unsigned long) 0xFFFFFFFFFFFFFFFF;
 #define INFINITY (*((double *) &__inf))
 #define NAN (*((double *) &__nan))
 
+#define signbit(A) ((A) < 0)
+
 int abs(int x);
+double fabs(double x);
+double fmod(double numer, double denom);
 double sqrt(double x);
 double cbrt(double x);
 double exp(double x);
 double log(double x);
 double hypot(double x, double y);
+double floor(double x);
+double ceil(double x);
+double trunc(double x);
+
+double sin(double x);
+double cos(double x);
 
 #endif

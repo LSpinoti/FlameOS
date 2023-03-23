@@ -92,8 +92,15 @@ libs/libgfx/txt/putchar.c
 libs/libm/Makefile
 libs/libm/math/abs.c
 libs/libm/math/cbrt.c
+libs/libm/math/ceil.c
+libs/libm/math/cos.c
 libs/libm/math/exp.c
+libs/libm/math/fabs.c
+libs/libm/math/floor.c
+libs/libm/math/fmod.c
 libs/libm/math/hypot.c
 libs/libm/math/log.c
 libs/libm/math/pow.c
+libs/libm/math/sin.c
 libs/libm/math/sqrt.c
+libs/libm/math/trunc.c
