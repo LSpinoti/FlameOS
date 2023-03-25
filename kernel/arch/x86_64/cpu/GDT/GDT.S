@@ -13,6 +13,4 @@ flush:
 	movw %ax, %gs
 	movw %ax, %fs
 	movw %ax, %ss
-#	movw $0x30, %ax
-#	ltr %ax
 	retq
