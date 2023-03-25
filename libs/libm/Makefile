@@ -16,6 +16,7 @@ math/log.o \
 math/pow.o \
 math/sin.o \
 math/sqrt.o \
+math/tan.o \
 math/trunc.o
 
 %.o: %.c

@@ -103,4 +103,5 @@ libs/libm/math/log.c
 libs/libm/math/pow.c
 libs/libm/math/sin.c
 libs/libm/math/sqrt.c
+libs/libm/math/tan.c
 libs/libm/math/trunc.c
