@@ -1,6 +1,7 @@
 Makefile
 Notes.txt
 README
+README.md
 bootloader/ELF.h
 bootloader/Makefile
 bootloader/boot.c
